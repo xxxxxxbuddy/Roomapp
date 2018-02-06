@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Adobe HeitiStd-Regular,Arial;
+}
+body{
+	font-style: normal;
+	font-weight: bold;
+	overflow-y: hidden;
+	min-width: 800px;
+	height: 100%;
+}
+h1{
+	color: white;
+	font-family: Microsoft Yahei;
+	font-size: 2em;
+}
+input[type="text"],input[type="password"]{
+	width: 278px;
+	height: 40px;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	border-radius: 2px;	
+}
+a{
+	text-decoration: none;
+}
+
+#wrapper{
+	height:100%;
+	background: url(../img/background.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+#header{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20vh;
+	padding-bottom: 13vh;
+	width: 100%;
+	position:relative;
+}
+#login{
+	margin: 10px;
+	width: 278px;
+	height: 40px;
+	background-color: #27a2fe;
+	border:0;
+	cursor:pointer;
+}
+#input{
+	margin:10px;
+}
+
+#check{
+	margin: 10px;
+}
+
+#t1{
+	margin-right: 60px; 
+}
+#main{
+	width: 100%;
+	vertical-align: middle;
+	margin-bottom:30vh;
+}
+#footer{
+	bottom: 0px;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	background-color: black;
+	opacity:0.70;
+}
+.text1::-webkit-input-placeholder{
+     color: #bbbbbd;
+     font-family: Microsoft Yahei;
+     font-size: 1em;
+}
+.login_text{
+	font-family: Microsoft Yahei;
+	font-size: 0.875em;
+	color: white;
+}
+.main_text{
+	font-family: Microsoft Yahei;
+	font-size: 0.875em;
+	color: #bbbbbd;
+}
+a:hover{
+	color: white!important;
+}
+#register {
+	font-size: 0.875em;
+	color: #bbbbbd;
+}
+
+.t2{
+	font-family: arial;
+	font-size: 1.25em;
+	color: white;
+}
+.t3{
+	color:#8db2c5;
+}

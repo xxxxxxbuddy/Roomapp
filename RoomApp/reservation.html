@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/reservation.css">
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/reservation.js"></script>
+    <script>
+    	if (/mobile/i.test(navigator.userAgent)) {
+        window.location = 'mobile_login.html'
+    }
+	</script>
+	<title>管理学院公用房管理系统-预约</title>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="left-bar">
+			<h1>管理学院公用房管理系统</h1>
+			</div>
+			<div id="right-bar">
+				<button id="return">返回首页</button>
+			</div>
+		</div>
+		<div id="main" align="center">
+			<span class="t2">公用房预约</span>
+			<form action=""  onsubmit="return validate_form(this)" method="post">
+				<label for="name">预约人：</label>
+				<input type="text" id="name" placeholder="请输入您的姓名"><br>
+				<label for="organization">组织：</label>
+				<input type="text" id="organization" placeholder="请输入组织名称"><br>
+				<label for="email">邮箱：</label>
+				<input type="text" id="email" placeholder="请输入您的邮箱"><br>
+				<label for="usage">用途：</label>
+				<input type="text" id="usage" placeholder="请输入您的预约用途（10字以内）"><br>
+				<label for="starttime">开始时间：</label>
+				<input type="date" id="starttime">
+				<input type="time" id="starttime"><br>
+				<label for="endtime">结束时间：</label>
+				<input type="date" id="endttime">
+				<input type="time" id="endttime"><br>
+				<div id="check">
+				<input type="checkbox" required><p >我已阅读并同意《<a href="http://pan.baidu.com/s/1pLwXDCv"><span class="notice">公用房使用须知</span></a>》</p>
+				</div><br>				
+				<input type="submit"  value="提 交" id="submit">
+				<input type="reset"  value="重 置" id="reset">
+			</form>
+		</div>
+		<div id="footer" align="middle">
+			<span class="t7">Powered by：</span>
+			<span class="t8">WeSharp Team</span>
+			<br>
+			<span class="t7">联系管理员：</span>
+			<span class="t8">Mail:111111111@qq.com||Tel:123456789</span>
+		</div>
+	</div>
+</body>
+</html>

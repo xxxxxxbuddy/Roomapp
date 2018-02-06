@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script>
+    	if (/mobile/i.test(navigator.userAgent)) {
+        window.location = 'mobile_login.html'
+    }
+	</script>
+	<title>管理学院公用房管理系统-注册</title>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h1 id="left-bar">管理学院公用房管理系统</h1>
+			<h1 id="right-bar">
+				<span id="signin"><a href="login.html">登录</a></span>
+				<span id="signup"><a href="signin.html">注册</a></span>
+			</h1>
+		</div>
+		<div id="main" align="center">
+			<span class="t1">注册</span>
+			<span class="t2">已有账号，马上</span>
+			<a href="login.html" ><span class="t3">登陆</span></a>
+			<form action="" method="post">
+				<div id="register-type">
+				<span class="t5">注册类别：</span>
+				<input type="radio" name="register-type" value="organization" required><span class="t4">组织</span>
+				<input type="radio" name="register-type" value="individual"><span class="t4">个人</span>
+				</div>
+				<br>
+				<span class="t6">负责人姓名：</span>
+				<input type="text" name="name" required><br>
+				<span class="t5">所在组织：</span>
+				<input type="text" name="organization" required><br>
+				<span class="t5">手机号码：</span>
+				<input type="number" name="phone" required><br>
+				<span class="t5">邮箱地址：</span>
+				<input type="text" name="email"><br>
+				<div id="line"><span class="t9">用途说明：</span>
+				<textarea name="useage" id="useage"  placeholder="请输入你使用公用房的主要用途"></textarea>
+				</div>
+				<div id="check">
+					<input type="checkbox" required><p >我已阅读并同意《<a href="http://pan.baidu.com/s/1pLwXDCv"><span class="notice">公用房使用须知</span></a>》</p>
+				</div>				
+				<input type="submit"  value="注册" id="button">
+			</form>
+		</div>
+		<div id="footer" align="middle">
+			<span class="t7">Powered by：</span>
+			<span class="t8">WeSharp Team</span>
+			<br>
+			<span class="t7">联系管理员：</span>
+			<span class="t8">Mail:111111111@qq.com||Tel:123456789</span>
+		</div>
+	</div>
+</body>
+</html>

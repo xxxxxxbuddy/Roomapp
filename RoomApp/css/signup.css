@@ -1,0 +1,143 @@
+*{
+	margin,padding:0;
+	font-family: Adobe HeitiStd-Regular,Arial;
+}
+body{
+	margin: 0px;
+	width: 100%;
+	min-width: 1150px;
+	}
+h1{
+	font-weight: normal;
+	font-size: 1.5em;
+	display: inline;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+input[type="text"],input[type="number"]{
+	width: 410px;
+	height: 51px;
+}
+form{
+	width: 800px;
+}
+p{
+	display: inline;
+	margin:0;
+}
+input[type="checkbox"]{
+
+
+}
+#wrapper{
+	background-color: #E0FEF5;
+	background-size: cover;
+	position: relative;
+}
+#header{
+	display: block;
+	height: 4.5em;
+	background-color: #24292E;
+}
+#left-bar{
+	float: left;
+	padding-left: 6vw;
+}
+#right-bar{
+	float: right;
+	padding-right: 6vw;
+}
+#signin{
+	font-size: 0.8em;
+}
+#signup{
+	font-size: 0.8em;
+}
+#main{
+	margin-left: 97px;
+	margin-right: 97px;
+	margin-top: 2em;
+	padding-left: 150px;
+	padding-right: 400px;
+	padding-bottom: 10vh;
+	padding-top: 2vh;
+	background-color: white;
+}
+#register-type{
+	position: relative;
+	right:150px;
+	display: inline;
+}
+.t1{
+	font-size: 3em;
+}
+.t2{
+	padding-left: 4em;
+	font-size: 1.125em;
+	color: #1e1e1e;
+}
+.t3{
+	font-size: 1.125em;
+	color: #fc0214;
+	font-weight: bold;
+}
+.t5{
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: left;
+	line-height: 6em;
+}
+.t6{
+	padding-right: 1em;
+}
+.t7{
+	color: white;
+	font-size: 1em;
+}
+.t8{
+	color: #2D2D2D;
+	font-size: 1em;
+}
+.t9{
+	float: left;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+#check{
+	margin-top: 170px;
+	margin-left: 120px;
+}
+.notice{
+	color: #0045b6;
+}
+#button{
+	margin-left: 100px;
+	margin-top: 1vh;
+	background-color: #27A2FF;
+	color: white;
+	font-size: 1.5em;
+	width: 410px;
+	height: 51px;
+	border: hidden;
+	cursor: pointer;
+}
+textarea{
+	margin-top: 0px;
+	margin-left: 20px;
+	padding-left: 3px;
+	display: inline-block;
+	float: left;
+	width: 410px;
+	height: 136px;
+}
+#footer{
+	padding-top: 2vh;
+	padding-bottom: 4vh;
+	line-height: 2em;
+	margin-top: 20px;
+	background-color: black;
+	width: 100%;
+}
