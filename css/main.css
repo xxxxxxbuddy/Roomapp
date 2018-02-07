@@ -96,27 +96,27 @@ h2{
 	cursor: pointer;
 }
 #date0,#date1,#date2,#date3{
-	text-align: -webkit-center;
+	text-align: center;
 	color: #696773;
 	width: 129px;
-	border-bottom:3px solid #EEEEEE; 
+	border-bottom:3px solid #EEEEEE;
 	cursor: pointer;
 }
 #date0:hover{
 	color: #3B8CFF;
-	border-bottom:3px solid #3B8CFF; 
+	border-bottom:3px solid #3B8CFF;
 }
 #date1:hover{
 	color: #3B8CFF;
-	border-bottom:3px solid #3B8CFF; 
+	border-bottom:3px solid #3B8CFF;
 }
 #date2:hover{
 	color: #3B8CFF;
-	border-bottom:3px solid #3B8CFF; 
+	border-bottom:3px solid #3B8CFF;
 }
 #date3:hover{
 	color: #3B8CFF;
-	border-bottom:3px solid #3B8CFF; 
+	border-bottom:3px solid #3B8CFF;
 }
 #table1_day0,#table1_day1,#table1_day2,#table1_day3,#table2_day0,#table2_day1,#table2_day2,#table2_day3,#table3_day0,#table3_day1,#table3_day2,#table3_day3{
 	float: left;
@@ -223,7 +223,7 @@ h2{
 		border:hidden;
 }
 .bc3 td{
-	
+
 }
 #footer{
 	padding-top: 2vh;
