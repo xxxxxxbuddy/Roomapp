@@ -21,7 +21,7 @@
 			<h1>管理学院公用房管理系统</h1>
 			</div>
 			<div id="right-bar">
-				<button id="return">返回首页</button>
+				<button id="return"><a href="main.html">返回首页</a></button>
 			</div>
 		</div>
 		<div id="main" align="center">
@@ -35,16 +35,23 @@
 				<input type="text" id="email" placeholder="请输入您的邮箱"><br>
 				<label for="usage">用途：</label>
 				<input type="text" id="usage" placeholder="请输入您的预约用途（10字以内）"><br>
+				<label for="date">日期：</label>
+				<input type="date" id="date"><br>
 				<label for="starttime">开始时间：</label>
-				<input type="date" id="starttime">
 				<input type="time" id="starttime"><br>
 				<label for="endtime">结束时间：</label>
-				<input type="date" id="endttime">
-				<input type="time" id="endttime"><br>
+				<input type="time" id="endtime"><br>
 				<div id="check">
 				<input type="checkbox" required><p >我已阅读并同意《<a href="http://pan.baidu.com/s/1pLwXDCv"><span class="notice">公用房使用须知</span></a>》</p>
 				</div><br>				
 				<input type="submit"  value="提 交" id="submit">
+				<script>
+					$("#submit").click(function () {
+						if ($("#starttime").val()>$("#endtime").val()){
+							alert("开始时间不能晚于结束时间！");
+						}
+				});
+				</script>
 				<input type="reset"  value="重 置" id="reset">
 			</form>
 		</div>
